@@ -98,4 +98,10 @@
 	  </MauiXaml>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Shared\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Shared\" />
+	</ItemGroup>
 </Project>
