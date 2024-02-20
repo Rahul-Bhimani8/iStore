@@ -75,6 +75,9 @@
 	  <MauiXaml Update="Pages\MyOrdersPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\NotificationPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\OnBoarding.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
