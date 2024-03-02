@@ -1,8 +1,8 @@
 namespace iStore.Pages
 {
-    public partial class CartorderPage : ContentPage
+    public partial class SearchPage : ContentPage
     {
-        public CartorderPage()
+        public SearchPage()
         {
             InitializeComponent();
         }

@@ -1,9 +1,10 @@
-namespace iStore.Pages;
-
-public partial class SignupPage : ContentPage
+namespace iStore.Pages
 {
-	public SignupPage()
-	{
-		InitializeComponent();
-	}
+    public partial class SignupPage : ContentPage
+    {
+        public SignupPage()
+        {
+            InitializeComponent();
+        }
+    }
 }

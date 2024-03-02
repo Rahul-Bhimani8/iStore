@@ -1,9 +1,10 @@
-namespace iStore.Pages;
-
-public partial class HomePage : ContentPage
+namespace iStore.Pages
 {
-	public HomePage()
-	{
-		InitializeComponent();
-	}
+    public partial class HomePage : ContentPage
+    {
+        public HomePage()
+        {
+            InitializeComponent();
+        }
+    }
 }

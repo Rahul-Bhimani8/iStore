@@ -1,9 +1,10 @@
-namespace iStore.Pages;
-
-public partial class MyOrdersPage : ContentPage
+namespace iStore.Pages
 {
-	public MyOrdersPage()
-	{
-		InitializeComponent();
-	}
+    public partial class MyOrdersPage : ContentPage
+    {
+        public MyOrdersPage()
+        {
+            InitializeComponent();
+        }
+    }
 }

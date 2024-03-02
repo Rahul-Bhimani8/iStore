@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = iStore.Shared
-build_property.ProjectDir = C:\Users\My Pc\Desktop\CPIN\Semester 4\iStore\iStore\iStore.Shared\
+build_property.ProjectDir = C:\Users\Research\source\repos\iStore\iStore.Shared\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
