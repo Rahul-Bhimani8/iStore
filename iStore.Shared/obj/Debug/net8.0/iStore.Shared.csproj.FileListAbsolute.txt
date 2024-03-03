@@ -1,0 +1,11 @@
+C:\Users\Research\source\repos\iStore\iStore.Shared\bin\Debug\net8.0\iStore.Shared.deps.json
+C:\Users\Research\source\repos\iStore\iStore.Shared\bin\Debug\net8.0\iStore.Shared.dll
+C:\Users\Research\source\repos\iStore\iStore.Shared\bin\Debug\net8.0\iStore.Shared.pdb
+C:\Users\Research\source\repos\iStore\iStore.Shared\obj\Debug\net8.0\iStore.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Research\source\repos\iStore\iStore.Shared\obj\Debug\net8.0\iStore.Shared.AssemblyInfoInputs.cache
+C:\Users\Research\source\repos\iStore\iStore.Shared\obj\Debug\net8.0\iStore.Shared.AssemblyInfo.cs
+C:\Users\Research\source\repos\iStore\iStore.Shared\obj\Debug\net8.0\iStore.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Research\source\repos\iStore\iStore.Shared\obj\Debug\net8.0\iStore.Shared.dll
+C:\Users\Research\source\repos\iStore\iStore.Shared\obj\Debug\net8.0\refint\iStore.Shared.dll
+C:\Users\Research\source\repos\iStore\iStore.Shared\obj\Debug\net8.0\iStore.Shared.pdb
+C:\Users\Research\source\repos\iStore\iStore.Shared\obj\Debug\net8.0\ref\iStore.Shared.dll

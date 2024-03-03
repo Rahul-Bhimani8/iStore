@@ -1,23 +1,24 @@
-namespace iStore.Pages;
-
-public partial class OnboardingPage : ContentPage
+namespace iStore.Pages
 {
-	public OnboardingPage()
-	{
-		InitializeComponent();
-	}
-	private async void Button_Clicked(object sender, EventArgs e)
-	{
-		await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
-	}
-
-    private async void Signin_Clicked(object sender, EventArgs e)
+    public partial class OnboardingPage : ContentPage
     {
-        await Shell.Current.GoToAsync(nameof(SigninPage));
-    }
+        public OnboardingPage()
+        {
+            InitializeComponent();
+        }
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
+        }
 
-    private async void Signup_Clicked(object sender, EventArgs e)
-    {
-        await Shell.Current.GoToAsync(nameof(SignupPage));
+        private async void Signin_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(SigninPage));
+        }
+
+        private async void Signup_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(SignupPage));
+        }
     }
 }

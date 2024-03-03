@@ -1,9 +1,10 @@
-namespace iStore.Pages;
-
-public partial class NotificationPage : ContentPage
+namespace iStore.Pages
 {
-	public NotificationPage()
-	{
-		InitializeComponent();
-	}
+    public partial class NotificationPage : ContentPage
+    {
+        public NotificationPage()
+        {
+            InitializeComponent();
+        }
+    }
 }

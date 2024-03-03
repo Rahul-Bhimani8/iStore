@@ -1,9 +1,10 @@
-namespace iStore.Pages;
-
-public partial class ProfilePage : ContentPage
+namespace iStore.Pages
 {
-	public ProfilePage()
-	{
-		InitializeComponent();
-	}
+    public partial class ProfilePage : ContentPage
+    {
+        public ProfilePage()
+        {
+            InitializeComponent();
+        }
+    }
 }
