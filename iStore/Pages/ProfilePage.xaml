@@ -3,39 +3,106 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="iStore.Pages.ProfilePage"
              Title="ProfilePage">
-   <VerticalStackLayout  Padding="40">
-        <Image Source="profileimage.png" WidthRequest="200"
-               Aspect="AspectFit"/>
+   <VerticalStackLayout Padding="40" BindingContext="{Binding Employee}">
+        <Entry x:Name="employeeEntry" Placeholder="Enter username" />
+        <Button Text="Search employee" Clicked="OnLoadEmployee"/>
+        <Label Text=""/>
+        <Label Text=""/>
+        <Image Source="profileimage.png" WidthRequest="200" Aspect="AspectFit"/>
         <Label Text=""/>
         <Label Text=""/>
         <Label Text="User details:"
                HorizontalTextAlignment="Center"
                FontAttributes="Bold"
                FontSize="20"/>
-        <Label Text = "User:            aryan.rana"
-               FontSize ="15"
-               TextColor="Grey" />
-        <Label Text = "First Name:  Aryan"
-               TextColor="Grey"/>
-        <Label Text = "Last Name:   Rana"
-               TextColor="Grey"/>
-        <Label Text="Employee ID: 12345"
-               TextColor="Grey"/>
-        <Label Text="Date of birth: XXXX-10-12"
-               TextColor="Grey"/>
-        <Label Text="Password: ********"
-               TextColor="Grey"/>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="User DB ID:             "
+                          FontAttributes="Bold"
+                          FontSize="15"
+                            TextColor="Grey"/>
+                    <Span Text="{Binding Id}"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="User name:              "
+                            FontAttributes="Bold"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                    <Span Text="{Binding User}"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="First Name:             "
+                            FontAttributes="Bold"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                    <Span Text="{Binding FirstName}"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+       
+         <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Last Name:              "
+                            FontAttributes="Bold"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                    <Span Text="{Binding LastName}"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Date of birth:          "
+                            FontAttributes="Bold"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                    <Span Text="{Binding DateOfBirth}"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Password:               "
+                            FontAttributes="Bold"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                    <Span Text="{Binding Password}"
+                            FontSize="15"
+                            TextColor="Grey"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
         <Label Text=""/>
-        <Label Text="Associatted store:"
-               HorizontalTextAlignment="Center"
-               FontAttributes="Bold"
-               FontSize="20"/>
         <Label Text=""/>
-        <Label Text="   *   Convenience store LaSalle Boulevard"/>
-        <Label Text="   *   Gas Station Kingsway Street"/>
-        <Label Text="   *   Convenience store Garson"/>
-        <Label Text=""/>
-        <Label Text=""/>
+       
         <Button Text="Edit user"/>
      </VerticalStackLayout>
 </ContentPage>
